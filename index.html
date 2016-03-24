@@ -1,0 +1,113 @@
+﻿<!DOCTYPE>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stil.css" />
+		
+
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  
+
+<script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('.navigacija');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+	</head>
+	<body>
+		<div class="wrapper" >
+			<div class="naslov">
+			<a href="index.html">
+				<img class="logo" src="logo.png" alt="Smiley face" height="auto" width="200">
+			</a>
+			<h2>Slatko kazalište krafna</h2>
+			</div>
+			<nav class="navigacija">
+				<ul>
+					<li><a href="#"> <br>Home</a></li>
+					<li><a href="#"><br>Predstave</a></li>
+					<li><a href="#"><br>Kontakt</a></li>
+					<li><a href="#"><br>O kazalištu</a></li>
+				</ul>
+			</nav>
+			<div class="sredina">
+			<div id="rep">
+				<h4>REPERTOAR</h4>
+				<nav id="repnav">
+				<ul>
+					<li><a href="predstava.html"><br>Predstava1</a></li>
+					<li><a href="predstava.html"><br>Predstava2</a></li>
+					<li><a href="predstava.html"><br>Predstava3</a></li>
+					<li><a href="predstava.html"><br>Predstava4</a></li>
+					<li><a href="predstava.html"><br>Predstava5</a></li>
+				</ul>
+			</nav>
+			</div>
+			<div id="vijesti">
+			<div id="vj1">
+			<h3>Naslov vijesti</h3><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Ut sit amet sapien varius, fermentum ipsum a, mattis arcu. 
+			Nam sit amet porta metus, id semper lectus. Aenean quis efficitur ante, nec vehicula nisi. 
+			Maecenas non lobortis tellus, at mattis dui. Nunc molestie libero vitae mattis hendrerit. 
+			Mauris suscipit orci sit amet arcu hendrerit, vel varius ante accumsan. 
+			Duis vehicula orci et neque ultrices, ac semper dui consectetur. 
+			Suspendisse in imperdiet sem, accumsan molestie ligula. 
+			Duis bibendum rhoncus mi, non pellentesque nisi consectetur sit amet. 
+			Nunc ultricies fermentum eros sit amet laoreet. Aliquam erat volutpat. 
+			Suspendisse vulputate ligula leo, maximus eleifend ante vehicula venenatis. 
+			Vivamus cursus dui mi, sed dapibus est iaculis vel. Quisque maximus, ligula id facilisis volutpat, 
+			urna eros varius purus, non feugiat ex lorem at nisi. 
+			Nam porta leo est, sed hendrerit felis aliquam nec.</p>
+			</div>
+			<br>
+			<hr>
+			<div id="vj2">
+			<h3>Naslov vijesti</h3><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Ut sit amet sapien varius, fermentum ipsum a, mattis arcu. 
+			Nam sit amet porta metus, id semper lectus. Aenean quis efficitur ante, nec vehicula nisi. 
+			Maecenas non lobortis tellus, at mattis dui. Nunc molestie libero vitae mattis hendrerit. 
+			Mauris suscipit orci sit amet arcu hendrerit, vel varius ante accumsan. 
+			Duis vehicula orci et neque ultrices, ac semper dui consectetur. 
+			Suspendisse in imperdiet sem, accumsan molestie ligula. 
+			Duis bibendum rhoncus mi, non pellentesque nisi consectetur sit amet. 
+			Nunc ultricies fermentum eros sit amet laoreet. Aliquam erat volutpat. 
+			Suspendisse vulputate ligula leo, maximus eleifend ante vehicula venenatis. 
+			Vivamus cursus dui mi, sed dapibus est iaculis vel. Quisque maximus, ligula id facilisis volutpat, 
+			urna eros varius purus, non feugiat ex lorem at nisi. 
+			Nam porta leo est, sed hendrerit felis aliquam nec.</p>
+			</div>
+			</div>
+			</div>
+			<div class="footer"><p>@Fran Mihelčić,</p><p>Adresa:Fancevljev prilaz 4,</p><p>Tel:01/6678456</p></div>
+		</div>
+	</body>
+</html>
