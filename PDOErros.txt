@@ -1,0 +1,77 @@
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/predstava.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/predstava.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/predstava.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'krafna' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /var/www/html/krafna/predstava.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}exception 'PDOException' with message 'could not find driver' in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/predstava.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/index.php(2): include_once('/var/www/html/k...')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/krafna/include/connection.php:9
+Stack trace:
+#0 /var/www/html/krafna/include/connection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/html/krafna/predstava.php(2): include_once('/var/www/html/k...')
+#2 {main}
